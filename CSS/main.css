@@ -70,6 +70,7 @@ display: flex;
   display: flex;
   flex:2;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .leftT{
   flex:2;
@@ -84,4 +85,30 @@ display: flex;
   display: flex;
   flex:1;
   flex-wrap: wrap;
+}
+
+.footermaster{
+  display:flex;
+  width:100%;
+  justify-content: center;
+
+}
+.footercontainer{
+  width:80%;
+  display:flex;
+
+}
+.footer1{
+  flex:1;
+}
+
+.footer1 h2{
+  color:red;
+}
+.footer2{
+  flex:3;
+}
+
+.footer2 p{
+  column-count: 3;
 }
